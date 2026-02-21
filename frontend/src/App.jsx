@@ -1,10 +1,15 @@
 import { useState } from 'react'
+import Login from './pages/Login';
+import SignUp from './pages/Signup';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>Hello World</>
+    <>
+      <Login></Login>
+      <SignUp></SignUp>
+    </>
   )
 }
 
